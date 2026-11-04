@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuromarketing-eye-tracking-heatmaps"
+version = "1.1.0"
+description = "Offline, research-focused iMotions gaze and expression visualisation toolkit"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Priyank Raval"}]
+keywords = ["neuromarketing", "eye-tracking", "imotions", "research", "heatmap", "facial-expressions"]
+dependencies = [
+ "numpy>=1.23,<3",
+ "pandas>=1.5,<3",
+ "Pillow>=9.2,<13",
+ "matplotlib>=3.6,<4",
+ "openpyxl>=3.0,<4",
+]
+classifiers = [
+ "Programming Language :: Python :: 3",
+ "License :: OSI Approved :: MIT License",
+ "Operating System :: OS Independent",
+ "Topic :: Scientific/Engineering :: Visualization",
+]
+
+[project.scripts]
+neuromarketing-heatmaps = "neuromarketing_heatmaps.cli:run"
+
+[project.optional-dependencies]
+dev = ["pytest>=7,<10", "build>=1"]
+
+[tool.setuptools]
+packages = ["neuromarketing_heatmaps"]

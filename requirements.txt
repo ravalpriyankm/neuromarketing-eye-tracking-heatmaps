@@ -1,0 +1,6 @@
+# For users who prefer pip -r over pip install -e .
+numpy>=1.23,<3
+pandas>=1.5,<3
+Pillow>=9.2,<13
+matplotlib>=3.6,<4
+openpyxl>=3.0,<4

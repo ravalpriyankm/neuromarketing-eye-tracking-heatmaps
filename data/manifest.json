@@ -1,0 +1,108 @@
+{
+  "dataset_version": "1.0",
+  "origin": "University of Essex MSc Computer Science final research project, 2022-2023",
+  "origin_file_count": 12,
+  "distribution": "Derived iMotions research recordings. Participant and source recording names replaced by arbitrary recording IDs; raw export preambles excluded.",
+  "recording_ids_not_unique_person_ids": true,
+  "removed": "Original export respondent names, age, gender, calendar timestamps, study names, device information, private paths, raw facial landmark arrays and unneeded tracking fields.",
+  "original_raw_archive_included": false,
+  "original_stimulus_images_included": false,
+  "records": [
+    {
+      "recording_id": "REC001",
+      "path": "data/public_recordings/REC001.csv.gz",
+      "rows": 10537,
+      "stimuli": 15,
+      "usable_gaze_samples": 5265,
+      "facial_expression_sample_rows": 1214
+    },
+    {
+      "recording_id": "REC002",
+      "path": "data/public_recordings/REC002.csv.gz",
+      "rows": 21154,
+      "stimuli": 30,
+      "usable_gaze_samples": 5653,
+      "facial_expression_sample_rows": 2886
+    },
+    {
+      "recording_id": "REC003",
+      "path": "data/public_recordings/REC003.csv.gz",
+      "rows": 29958,
+      "stimuli": 30,
+      "usable_gaze_samples": 7969,
+      "facial_expression_sample_rows": 4088
+    },
+    {
+      "recording_id": "REC004",
+      "path": "data/public_recordings/REC004.csv.gz",
+      "rows": 10570,
+      "stimuli": 15,
+      "usable_gaze_samples": 5167,
+      "facial_expression_sample_rows": 1224
+    },
+    {
+      "recording_id": "REC005",
+      "path": "data/public_recordings/REC005.csv.gz",
+      "rows": 10502,
+      "stimuli": 15,
+      "usable_gaze_samples": 5361,
+      "facial_expression_sample_rows": 1221
+    },
+    {
+      "recording_id": "REC006",
+      "path": "data/public_recordings/REC006.csv.gz",
+      "rows": 10549,
+      "stimuli": 15,
+      "usable_gaze_samples": 4765,
+      "facial_expression_sample_rows": 1223
+    },
+    {
+      "recording_id": "REC007",
+      "path": "data/public_recordings/REC007.csv.gz",
+      "rows": 20700,
+      "stimuli": 15,
+      "usable_gaze_samples": 5215,
+      "facial_expression_sample_rows": 1220
+    },
+    {
+      "recording_id": "REC008",
+      "path": "data/public_recordings/REC008.csv.gz",
+      "rows": 20690,
+      "stimuli": 15,
+      "usable_gaze_samples": 4949,
+      "facial_expression_sample_rows": 1224
+    },
+    {
+      "recording_id": "REC009",
+      "path": "data/public_recordings/REC009.csv.gz",
+      "rows": 20743,
+      "stimuli": 15,
+      "usable_gaze_samples": 5108,
+      "facial_expression_sample_rows": 1223
+    },
+    {
+      "recording_id": "REC010",
+      "path": "data/public_recordings/REC010.csv.gz",
+      "rows": 20717,
+      "stimuli": 15,
+      "usable_gaze_samples": 5370,
+      "facial_expression_sample_rows": 1230
+    },
+    {
+      "recording_id": "REC011",
+      "path": "data/public_recordings/REC011.csv.gz",
+      "rows": 20249,
+      "stimuli": 15,
+      "usable_gaze_samples": 5141,
+      "facial_expression_sample_rows": 1229
+    },
+    {
+      "recording_id": "REC012",
+      "path": "data/public_recordings/REC012.csv.gz",
+      "rows": 20287,
+      "stimuli": 15,
+      "usable_gaze_samples": 4929,
+      "facial_expression_sample_rows": 2688
+    }
+  ]
+}

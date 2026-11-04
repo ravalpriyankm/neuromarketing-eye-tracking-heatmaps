@@ -1,0 +1,47 @@
+
+
+// {
+//   "manifest_version": 3,
+//   "name": "Website Screenshot Extension",
+//   "version": "1.0",
+//   "permissions": ["activeTab", "storage","tabs","scripting"],
+//   "background": {
+//       "scripts": ["background.js"],
+//       "persistent": true
+//   },
+//   "browser_action": {
+//       "default_popup": "popup.html"
+//   },  
+//   "host_permissions": [
+//     "http://*/*", "https://*/*"
+//   ],
+//   "content_scripts": [
+//       {
+//           "matches": ["<all_urls>"],
+//           "js": ["content.js"]
+//       }
+//   ]
+// }
+
+
+
+{
+  "manifest_version": 3,
+  "name": "Scroll Stats",
+  "description": "This extension provides scroll stats",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "tabs", "scripting"],
+  "action": {},
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
+
+
+

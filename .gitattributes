@@ -1,0 +1,9 @@
+# Preserve original 2023 research notebooks without letting them dominate
+# GitHub language statistics for the maintained Python application.
+legacy/** linguist-documentation
+
+# Reduce unnecessary churn when line-ending conventions differ.
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
